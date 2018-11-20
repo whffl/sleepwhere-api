@@ -7,7 +7,8 @@
 	<title>다음 지도 API</title>
 </head>
 <body>
-	<div id="map" style="width:50%;height:550px;"></div>
+    <div id = wrap>
+	<div id="map" style="width:60%;height:550px;"></div>
 
 	<script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=cbfbedfb1209e5dc35be17a161817637"></script>
 	<script>
@@ -17,11 +18,10 @@
 		        level: 3, // 지도의 확대 레벨
 		        mapTypeId : daum.maps.MapTypeId.ROADMAP // 지도종류
 		    }; 
-
 		// 지도를 생성한다 
 		var map = new daum.maps.Map(mapContainer, mapOption); 
-
-	</script>
+    </script>
+    <div id = right>
 	<p id="introduce">
       서울디지텍고등학교<br><br>
       분류 : 사립 고등학교<br>
@@ -31,5 +31,7 @@
       연락처 : 02-798-3641<br>
       홈페이지 주소 : http://www.sdh.hs.kr/index.do<br>
   </p>
+  </div>
+  </div>
 </body>
 </html>
