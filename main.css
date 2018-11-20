@@ -9,3 +9,9 @@
 #map{
     margin : auto 0;
 }
+
+#introduce{
+    font-family: 'Sunflower', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
