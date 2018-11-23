@@ -6,9 +6,13 @@
     text-decoration: none;
 }
 
+body{
+    background-image:url("christmas.jpg");
+    background-size:cover;
+}
+
 #map{
     float: left;
-    margin-left:30%;
 }
 
 #introduce{
@@ -16,6 +20,11 @@
     text-align: center;
     font-size: 25px;
     margin-left : 100px;
+}
+
+p{
+    line-height:45px;
+    color:white;
 }
 
 #right {
