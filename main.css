@@ -35,7 +35,7 @@ p{
 
 .bgSizeContain {
 
-  background-image : url(//dapi.kakao.com/v2/maps/sdk.js?appkey=cbfbedfb1209e5dc35be17a161817637);
+  background-image : url("//dapi.kakao.com/v2/maps/sdk.js?appkey=cbfbedfb1209e5dc35be17a161817637");
     
   background-size: contain;
 
