@@ -49,3 +49,7 @@ p{
   overflow: scroll;
 
 }
+
+#wrap {
+    left:200px;
+}
