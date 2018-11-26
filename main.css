@@ -13,7 +13,6 @@ body{
 
 #map{
     float: left;
-    border: 2px solid aquamarine;
 }
 
 #introduce{
@@ -41,7 +40,7 @@ p{
 
   height: 300px;
 
-  border: 2px solid;
+  border: 2px solid black;
 
   color: black;
 
