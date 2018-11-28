@@ -65,6 +65,10 @@ p{
     height: 120px;
     background-color: black;
 }
+#black_box:hover{
+    height: 200px;
+    transition: 0.9s;
+}
 
 #black_box nav > ul > li{
     display:inline-block;
